@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Italianno", cursive;
+    font-weight: 600;
+    font-size: 25px;
+}
+section{
+    margin: 0;
+    background-color: rgb(7, 55, 63);
+    height: 400px;
+    width: auto;
+}
+.fas{
+    float: right;
+    margin: 20px 20px 20px 0;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.sidebar{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    color: whitesmoke;
+}
+div{
+    margin: 10px;padding:10px 0;
+    letter-spacing: 2.5px;
+}

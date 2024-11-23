@@ -1,0 +1,239 @@
+
+.bodycontent{
+    height: 100%;
+    background-image: url(https://i.pinimg.com/736x/c2/2e/35/c22e3519618d0f415975de2dd4ea2332.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: black;
+    overflow:hidden;
+    
+}
+::placeholder{
+	color:whitesmoke;
+    font-size: 20px;
+    font-style:oblique;
+}
+.subdiv{
+    margin: 50px;
+    height: 500px;
+    width: 450px;
+    text-align: center;
+    border-radius: 30px;
+    backdrop-filter: blur(3px);
+    padding: 30px;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    font-style: oblique;
+}
+.h1{
+    margin-top: 20px;
+}
+
+.div{
+    margin-top: 40px;
+    height: 20px;
+    width: auto;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding: 15px;
+    align-items: center;
+    
+}
+.fa-regular{
+    color: white;
+    float: left;
+    font-size: 20px;
+}
+#email{
+    height: 20px;
+    float: left;
+    width: 80%;
+    margin-left: 20px;
+    color: white;
+    background: transparent;
+    outline:none;
+    border-style: none;
+}
+.div1{
+    height: 20px;
+    width: auto;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    padding: 15px;
+    margin-top: 30px;
+}
+.fa-solid{
+    color: white;
+    float: left;
+    font-size: 20px;
+}
+#password{
+    height: 20px;
+    float: left;
+    width: 80%;
+    margin-left: 20px;
+    color: white;
+    background: transparent;
+    outline:none;
+    border-style: none;
+}
+.div2{
+    
+    margin-top: 20px;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.div3{
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    margin-top: 30px;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.anchor{
+    margin-top: 50px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+.navicon{
+    display: none;
+}
+.ab{
+    text-decoration: none;
+}
+@media only screen and (max-width:500px) {
+    ul{
+        display: none;
+    }
+    .navicon{
+        display: flex;
+        justify-content: end;
+        margin: 40px;
+        font-size: 30px;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+@media only screen and  (max-width:430px){
+    .bodycontent{
+        height: 100%;
+        width: auto;
+        background-image: url(https://i.pinimg.com/736x/c2/2e/35/c22e3519618d0f415975de2dd4ea2332.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        color: black;
+        overflow:hidden;
+    }
+    ::placeholder{
+        color:whitesmoke;
+        font-size: 20px;
+        font-style:oblique;
+    }
+    .subdiv{
+        margin: 10px;
+        height: 470px;
+        width: 450px;
+        text-align: center;
+        border-radius: 30px;
+        backdrop-filter: blur(3px);
+        padding: 20px;
+        border: 3px solid whitesmoke;
+        color: whitesmoke;
+        font-style: oblique;
+    }
+    h1{
+        margin-top: 20px;
+    }
+
+    .div{
+       height: 25px;
+        width: auto;
+        border-radius: 20px;
+        border: 2px solid whitesmoke;
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .fa-regular{
+        color: white;
+        float: left;
+        font-size: 15px;
+    }
+    #email{
+        height: 20px;
+        float: left;
+        width: 80%;
+        margin-left: 10px;
+        color: white;
+        background: transparent;
+        outline:none;
+        border-style: none;
+    }
+    .div1{
+        height: 25px;
+        width: auto;
+        border-radius: 20px;
+        border: 2px solid whitesmoke;
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .fa-solid{
+        color: white;
+        float: left;
+        font-size: 15px;
+    }
+    #password{
+        height: 20px;
+        float: left;
+        width: 80%;
+        margin-left: 10px;
+        color: white;
+        background: transparent;
+        outline:none;
+        border-style: none;
+    }
+    .div2{
+        margin-top: 20px;
+        color: white;
+    }
+    span{
+        font-size: 12px;
+    }
+    a{
+        color: white;
+        margin-left: 20px;
+    }
+    .div3{
+        height: 50px;
+        width: 100%;
+        border-radius: 20px;
+        border: 2px solid whitesmoke;
+        
+        margin-top: 30px;
+        background: transparent;
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    .anchor{
+        margin-top: 35px;
+        color: whitesmoke;
+        letter-spacing: 2px;
+    }
+   
+    .ab{
+        text-decoration: none;
+    }
+}
