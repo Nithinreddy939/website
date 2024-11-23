@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Italianno", cursive;
+    font-weight: 500;
+}   
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:#0C0C0C;
+}
+.div11{
+    padding: 10px;
+}
+.navicon{
+    display: none;
+}
+.imglogo{
+    height: 120px;
+    width:120px;border: 5px solid whitesmoke;border-radius: 50%;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+ul>li{
+    list-style: none;
+    margin-right:10px ;
+}
+ul>li>a{
+    text-decoration: none;
+    color:whitesmoke;font-weight: 550;
+    font-size:30px ;font-style: none;
+}
+ul>li>a:hover{
+    color: whitesmoke;border: 2px solid whitesmoke;padding: 0 10px;
+    border-radius: 20px 8px;transition: 0.5s;
+}
+section{
+    display: none;
+}
+
+
+/* Dashbored */
+.container1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+    background-image:url(https://i.pinimg.com/736x/8e/26/ac/8e26acda6e1dec1c7e08d17d26fda310.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.subdiv1{
+    margin: 0;
+    color: white;
+    margin-right: 70px;
+}
+h1{
+    margin-right: 50px;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+
+h4{
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+/* INformation Content */
+.information{
+    background-color: #481E14;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin: 0;
+}
+h2{
+    margin: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.ha1{
+    text-decoration: underline;
+}
+.info{
+    padding: 5px;
+    text-align:center ;
+}
+.info3{
+    padding: 20px;
+    text-align:center ;
+}
+.info1{
+    padding: 20px;
+    text-align:center ;
+}
+/* Contact Information */
+.contactdetails{
+    color: white;
+    background-color: #9B3922;
+    /* height: 300px; */
+    margin: 0;
+    padding: 20px;
+    /* background-image: url(https://i.pinimg.com/736x/f1/41/08/f14108a8044ad1684a85895bb73d5793.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.contact1{
+    text-align: center;
+    padding: 20px;
+    /* background-color: rgb(1, 1, 4); */
+}
+.contact2{
+    
+    
+    text-align: center;
+}
+.image1{
+    height: 260px;
+    width: auto;
+    border-radius: 20px;
+}
+button{
+    color: white;
+    width: 100px;
+    padding: 10px;
+    font-style: none;
+    font-family: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+}
+/* section content */
+.section{
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+    padding-top: 40px;
+    /* background-color: rgb(1, 3, 3); */
+    background: #F2613F;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+}
+.img{
+    height: 120px;
+    width:120px;border: 5px solid whitesmoke;border-radius: 50%;
+}
+h3{
+    letter-spacing: 2px;
+    font-size:30px ;font-weight: 580;
+}
+.item1{
+    margin-top: 30px;
+}
+.item2{
+    margin-top: 30px;
+}
+.item3{
+    margin-top: 30px;
+}
+.subitem1{
+    border: 4px solid whitesmoke;border-radius: 30px;
+    height:200px ;font-size:20px;letter-spacing: 2px;
+}
+/* iconstyle */
+.subiconstyle{
+    margin-top: -50px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border: 4px solid whitesmoke;
+}
+
+.subitem2{
+    border: 4px solid whitesmoke;border-radius: 30px;
+    font-size:20px;letter-spacing: 2px;height:200px ;
+}
+.subitem3{
+    border: 4px solid whitesmoke;border-radius: 30px;
+   font-size:20px;letter-spacing: 2px;height:200px ;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(1, 3, 3);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 30px;
+  }
+
+@media only screen and (max-width:500px) {
+    ul{
+        display: none;
+    }
+ 
+    .navicon{
+        display: flex;
+        justify-content: end;
+        margin: 40px;
+        font-size: 30px;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+    }
+    /* Dash Bored */
+    .container1{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        background-image:url(https://i.pinimg.com/736x/8e/26/ac/8e26acda6e1dec1c7e08d17d26fda310.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+    }
+    .subdiv1{
+        margin: 0;
+        color: white;
+        margin-right: 30px;
+        text-align: center;
+    }
+    h1{
+        margin-bottom: 0;
+        margin-right: -20px;
+        font-weight: 550;
+        letter-spacing: 2px;
+    }
+    h4{
+        margin-right: -10px;
+        font-size: 30px;
+        font-weight: 550;
+        letter-spacing: 2px;
+    }
+}
