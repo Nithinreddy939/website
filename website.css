@@ -140,9 +140,9 @@ button{
 }
 /* section content */
 .section{
-    /* display: flex;
+    display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding-top: 40px;
     /* background-color: rgb(1, 3, 3); */
     background: #F2613F;
@@ -206,7 +206,7 @@ footer {
     font-size: 30px;
   }
 
-@media only screen and (max-width:500px) {
+ @media only screen and (max-width:500px) {
     ul{
         display: none;
     }
@@ -241,14 +241,14 @@ footer {
     }
     h1{
         margin-bottom: 0;
-        margin-right: -20px;
+        margin-right: 20px;
         font-weight: 550;
         letter-spacing: 2px;
     }
     h4{
-        margin-right: -10px;
+        margin-right: 10px;
         font-size: 30px;
         font-weight: 550;
         letter-spacing: 2px;
-    }
+    } 
 }
