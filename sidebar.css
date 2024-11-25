@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding:0;
-    font-family: "Italianno", cursive;
-    font-weight: 600;
-    font-size: 25px;
+    font-family: "Noto Serif Ahom", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 section{
     margin: 0;
@@ -30,5 +30,5 @@ a{
 }
 div{
     margin: 10px;padding:10px 0;
-    letter-spacing: 2.5px;
+    font-size: 20px;
 }
